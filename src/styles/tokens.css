@@ -1,0 +1,46 @@
+/**
+ * Eskort Creations — Core Token Architecture
+ * Tailwind v4 CSS-First System
+ */
+
+:root {
+  color-scheme: light;
+
+  /* Day Theme (Direction A: Selvedge) */
+  --canvas: #FAF8F5;
+  --surface-subtle: #F0ECE4;
+  --surface-card: #FFFFFF;
+  --border-subtle: #E2DBD2;
+  --border-strong: #C4BCB0;
+
+  --ink-primary: #1C1E24;
+  --ink-secondary: #3D424D;
+  --ink-muted: #5A606E;
+  --ink-faint: #8B92A0;
+
+  --accent-madder: #943843;
+  --accent-brass: #A67C38;
+  --accent-indigo: #3D5A80;
+  --accent-slub: #2F3E46;
+
+  /* Radius by Role (Section 6.2) */
+  --radius-media: 2px;
+  --radius-control: 10px;
+  --radius-sheet: 20px;
+  --radius-pill: 9999px;
+
+  /* Elevation (One soft ambient shadow strictly for sheets/dialogs) */
+  --shadow-sheet: 0 16px 40px -12px rgba(28, 30, 36, 0.16);
+
+  /* Motion Durations (Section 7.5) */
+  --duration-press: 120ms;
+  --duration-hover: 220ms;
+  --duration-ui: 420ms;
+  --duration-reveal: 720ms;
+  --duration-hero: 1100ms;
+
+  /* Motion Easings */
+  --ease-settle: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-sheet: cubic-bezier(0.32, 0.72, 0, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+}
